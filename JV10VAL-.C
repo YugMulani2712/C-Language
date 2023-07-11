@@ -1,0 +1,19 @@
+#include<stdio.h>
+#include<conio.h>
+#define SIZE 10
+void main()
+{
+int a[100],i,sum=0;
+float avg=0;
+clrscr();
+for(i=0;i<SIZE;i++)
+{
+printf("\n %d",a[i]);
+scanf("%d",&a[i]);
+sum=sum+a[i];
+avg=avg+a[i];
+}
+printf("\n the sum = %d ",sum);
+printf("\n the avg = %d",avg/10);
+getch();
+}

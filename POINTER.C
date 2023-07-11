@@ -1,0 +1,18 @@
+#include<stdio.h>
+#include<conio.h>
+
+void main()
+{
+	int x,z;
+	int *y,*a;
+	clrscr();
+	printf("\nenter the value of x =");
+	scanf("%d",&x);
+	y=&x;
+	printf("\nenter the value of x = ");
+	scanf("%d",&z);
+	a=&z;
+	printf("the value is %d and address is %u",*y,y);
+	printf("the value is %d and address is %u",*a,a);
+	getch();
+	}

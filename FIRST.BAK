@@ -1,0 +1,12 @@
+
+
+
+
+*/
+#include<stdio.h>
+#include<conio.h>
+void main(){
+	     int no1,no2,answer;
+	     clrscr;
+	     printf("enter first number=");
+	     scanf(

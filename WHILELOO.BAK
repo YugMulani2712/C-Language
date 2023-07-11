@@ -1,0 +1,18 @@
+#include<stdio.h>
+#include<conio.h>
+void main(){
+	      char ch='A';
+	      int i=0;
+	      clrscr();
+	      printf("\n\n\n\n\n");
+	      while(i<=26){
+	      textcolor(i);
+			     cprintf("\t%c",ch+i);
+			     sound(90);
+			     delay(80);
+			     nosound();
+
+			     i++;
+			     }
+			     getch();
+			     }

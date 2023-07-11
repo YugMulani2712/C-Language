@@ -1,0 +1,11 @@
+#include<stdio.h>
+#include<conio.h>
+#include<stdlib.h>
+void main()
+{
+	int i,num,choice,round,self=0,computer=0;
+	clrscr();
+	printf("\nEnter 1 for rock");
+	printf("\nEnter 2 for paper");
+	printf("\nEnter 3 for sessior");
+	printf("\nEnter the number of rounds = ");

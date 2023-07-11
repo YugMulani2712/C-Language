@@ -1,0 +1,19 @@
+#include<stdio.h>
+#include<conio.h>
+void main()
+{
+int a,n,i,b=1;
+clrscr();
+
+printf("enter the value of n = ");
+scanf("%d",&n);
+
+i=1;
+while(i<=n)
+{
+a=i+b;
+printf("%d",a);
+i++,b+=2;
+}
+getch();
+}

@@ -1,0 +1,15 @@
+#include<stdio.h>
+#include<conio.h>
+void main()
+{
+int a;
+clrscr();
+a='A';
+do
+{
+printf("%c %c\t",a,a+32);
+a++;
+}
+while(a<='Z')
+getch();
+}
