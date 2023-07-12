@@ -59,4 +59,5 @@ void main(){
 		}
 		fclose(file);
 		getch();
-// end of main
+
+}// end of main

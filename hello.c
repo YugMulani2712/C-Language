@@ -1,8 +1,15 @@
-#include<stdio.h>
+/*******************************************
+Statement - Print Hello World
+Programmer - Vineet Choudhary
+Written For - http://developerinsider.in
+********************************************/
 
-int main()
+#include <stdio.h>
+#include <conio.h>
+
+void main()
 {
-printf("hello world");
-
-return 0;
+	clrscr();
+	printf("Hello world\n");
+	getch();
 }
